@@ -1,0 +1,10 @@
+---
+date: 2017-06-29 00:00:00
+title: "Little Things [20170629]"
+category: "Life Discovery"
+tag: "Little Things"
+---
+
+It's been less input to me recently so that less output from me. This month is really busy. It's time to keep up!
+
+I think I am a single-thread processor. It's really hard for me to handle multiple tasks simultaneously. I'd become worried about another one if I'm working on one task, which means that I might mess up with the current one. I don't know whether anyone can do it better. Besides the single-thread thing, sometimes I become too anxious to having any mood to do anything, like keeping a diary, reading paper or picking up a habit. Maybe I'm too narrow-minded??

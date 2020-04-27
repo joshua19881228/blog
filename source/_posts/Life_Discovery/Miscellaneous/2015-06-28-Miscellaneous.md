@@ -1,0 +1,14 @@
+---
+date: 2015-06-28 00:00:00
+title: "Duke University ENGLISH COMPOSITION I Assignment: I am a writer"
+category: "Life Discovery"
+tag: "Miscellaneous"
+---
+
+My name is Li Zhixuan, currently a computer vision engineer in Beijing, China. If you like, you can call me Joshua, which sounds more or less like my Chinese given name.
+
+I did not notice that I am already a writer until I drew the time line of my humble writing career. The first memories of my starting writing are those diaries that I kept in summer holidays according to my Chinese teacher's request when I was in grade six to eight. At that time, I just hated writing because I did not know what to write about due to not many meaningful things happened in holidays. Besides, being unable to tell a story lively made me feel pathetic and inferior. However, sometimes I did feel happy about my writings. I remembered that I wrote a short story about how I was annoyed by mosquitoes and got up killing them in a summer night. The story was written in ancient Chinese style imitating a text from my Chinese textbook. I got a Bravo from my Chinese teacher and she said it was really funny to read. Though I still suffered from lack of words and telling stories like presenting facts, I began to feel free to write and cultivated a habit of keeping diaries from then on. Thanks to that, I got three huge notebooks full of growing pains in my “secret chamber”.
+
+I began to know academic writing when I was in university. There were many courses that required an essay for evaluation. From the reference papers, I learnt to propose problems, explain solutions and presenting evidence of effectiveness and feasibility. Unlike most of my peers feeling awful about writing their Master degree dissertations, I felt quite comfortable with it mainly because I had much to share with others. My dissertation was about detecting certain events in surveillance videos. I was so eager to share with others about how meaningful the task was, what flaws current algorithms had and how I improved them that it was as if everything was just bursting out of my mind. Although I write much in Chinese, I have little experience of writing academic papers in English. The only experience is a paper I wrote about detecting pedestrians in images, which was a part of work from my Master dissertation and the paper was published in an international conference. It was because of the conference that I got a chance to visit Krakow, a beautiful historical city in Poland. I felt really proud of myself presenting my work in the conference and it was really a pleasant trip to Krakow, appreciating its marvelous beauty and culture.
+
+Currently, I am working in an IT company and writing patents, project documentation and slides is also my responsibility. In addition, I am writing this blog. Those are some of the reasons I am taking this course. I wish I could really improve myself and have fun with writing!
