@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About Me
 subtitle: Zhixuan LI's Bio
 date: 2020-04-26 21:04:03
 ---
