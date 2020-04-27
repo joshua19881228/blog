@@ -6,11 +6,6 @@ category: "Computer Vision"
 
 I am going to maintain this page to record a few things about computer vision that I have read, am doing, or will have a look at. Previously I'd like to write short notes of the papers that I have read. It is a good way to remember and understand the ideas of the authors. But gradually I found that I forget much portion of what I had learnt because in addition to paper I also derive knowledges from others' blogs, online courses and reports, not recording them at all. Besides, I need a place to keep a list of what I should have a look at but do not at the time when I discover them. This page will be much like a catalog.
 
-## Table of Content
-
-- Content
-  {:toc}
-
 ## PAPERS AND PROJECTS
 
 ### OBJECT/SALIENCY DETECTION
