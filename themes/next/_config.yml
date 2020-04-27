@@ -122,6 +122,7 @@ menu:
   tags: /tags/ || fa fa-tags
   about: /about/ || fa fa-user
   My Jumble of Computer Vision: /2016/08/25/Computer_Vision/2016-08-25-my-jumble-of-computer-vision/ ||
+  An Introduction to CNN based Object Detection: /2017/06/13/Computer_Vision/2017-06-13-An-Introduction-to-CNN-based-Object-Detection/ ||
     # My Jumble of Computer Vision: 
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
