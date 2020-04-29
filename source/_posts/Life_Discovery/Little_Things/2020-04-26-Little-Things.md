@@ -5,4 +5,4 @@ category: "Life Discovery"
 tag: "Little Things"
 ---
 
-Rebuilt blog with Hexo. 
+Rebuilt blog with Hexo.
