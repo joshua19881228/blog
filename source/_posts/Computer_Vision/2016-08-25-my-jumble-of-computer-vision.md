@@ -393,12 +393,13 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### 3D/DEPTH/POINT CLOUD
 
-- The Perfect Match: 3D Point Cloud Matching with Smoothed Densities ([PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf), [Project/Code](https://github.com/zgojcic/3DSmoothNet))
+- The Perfect Match: 3D Point Cloud Matching with Smoothed Densities ([PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf), [Project/Code](https://github.com/zgojcic/3DSmoothNet), [Reading Note](https://joshua19881228.github.io/2020/05/01/Computer_Vision/Reading_Note/2020-05-01-NBDT/))
 - Pix3D: Dataset and Methods for Single-Image 3D Shape Modeling ([PDF](https://arxiv.org/abs/1804.04610), [Project/Code](https://github.com/xingyuansun/pix3d))
 - Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras ([PDF](https://arxiv.org/abs/1904.04998))
 
 ### CNN AND DEEP LEARNING
 
+- NBDT: Neural-Backed Decision Trees ([PDF](https://arxiv.org/abs/2004.00221), [Project/Code](http://nbdt.alvinwan.com/), [Github](https://github.com/alvinwan/neural-backed-decision-trees))
 - Interpretable CNNs ([PDF](https://arxiv.org/abs/1901.02413))
 - Bag of Tricks for Image Classification with Convolutional Neural Networks ([PDF](https://arxiv.org/abs/1812.01187))
 - How Does Batch Normalization Help Optimization? ([PDF](https://arxiv.org/abs/1805.11604), [VIDEO](https://www.youtube.com/watch?v=ZOabsYbmBRM))
