@@ -34,8 +34,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   参考[AITTSMD/MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow)提供的 prepare_data 进行数据生成。数据集情况如下表
 
+
   |                    |   Positive    |   Negative    |     Part      |   Landmark    |
-  | :----------------: | :-----------: | :-----------: | :-----------: | :-----------: |
+  | - | - | - | - | - |
   |  **Training Set**  | 156728/189530 | 470184/975229 | 156728/547211 | 313456/357604 |
   | **Validation Set** |     10000     |     10000     |     10000     |     10000     |
 
@@ -102,8 +103,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   使用上述 12net 在 WiderFace 上提取正负样本，提取结果如下：
 
+
   | Thresholed | Positive | Negative |  Part  |
-  | :--------: | :------: | :------: | :----: |
+  | - | - | - | - |
   |    0.05    |  85210   | 36745286 | 632861 |
   |    0.5     |  66224   | 6299420  | 354350 |
 
@@ -111,8 +113,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   准备 24net 的训练样本。由于生成 12net 检测到的正样本数目有限，训练 24net 的 pos 样本包含两部分，一部分是训练 12net 的正样本，一部分是经过筛选的 12net 检测到的正样本；neg 样本和 part 样本全部来自 12net 的难例；landmark 与 12net 共用样本。经过采样后达到样本比例 1:3:1:2，样本数目如下表：
 
+
   |                    | Positive | Negative |  Part  | Landmark |
-  | :----------------: | :------: | :------: | :----: | :------: |
+  | - | - | - | - | - |
   |  **Training Set**  |  225172  |  675516  | 225172 |  313456  |
   | **Validation Set** |  10000   |  10000   | 10000  |  10000   |
 
@@ -137,14 +140,16 @@ tag: ["Face Detection", "Face Alignment"]
 
   使用 24net 在 WiderFace 上提取正负样本，提取结果如下：
 
+
   | Thresholed | Positive | Negative |  Part  |
-  | :--------: | :------: | :------: | :----: |
+  | - | - | - | - |
   |  0.5, 0.5  |  86396   |  83212   | 225285 |
 
   利用以上数据生成 48net 的训练样本，由于 24net 生成的样本数量有限，结合前两次训练所用的数据，生成训练集：
 
+
   |                    | Positive | Negative |  Part  | Landmark |
-  | :----------------: | :------: | :------: | :----: | :------: |
+  | - | - | - | - | - |
   |  **Training Set**  |  283616  |  850848  | 283616 |  567232  |
   | **Validation Set** |  10000   |  10000   | 10000  |  10000   |
 
@@ -172,8 +177,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   实际的分类精度为 0.9324。整体来看基本实现了文章中[参考文献[19]](http://users.eecs.northwestern.edu/~xsh835/assets/cvpr2015_cascnn.pdf)在验证集上的性能，性能对比如下表
 
+
   |  CNN  | 12-net | 24-net | 48-net |
-  | :---: | :----: | :----: | :----: |
+  | - | - | - | - |
   | [19]  | 94.4%  | 95.1%  | 93.2%  |
   | MTCNN | 94.6%  | 95.4%  | 95.4%  |
   | Ours  | 94.3%  | 96.3%  | 93.2%  |
@@ -184,8 +190,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   比较奇怪的问题是在 Caffe 上进行 CPU 运算时，速度极慢，尤其 12net 运行速度慢 30 倍左右。通过观察参数分布发现，有大量 kernel 都是全零分布，初步感觉是因为 Adam 和 ignore label 相互作用的结果，即 ignore label 的样本会产生 0 值 loss，这些 loss 会影响 Adam 的优化过程，具体原因还需进一步理论推导。目前的解决方案是将含有大量 0 值 kernel 的层随机初始化，使用 SGD 进行训练。至于抖动的问题，需要进一步分析。重训后的模型性能如下表：
 
+
   |          | 12-net | 24-net | 48-net |
-  | :------: | :----: | :----: | :----: |
+  | - | - | - | - |
   | Accuracy | 94.59% | 96.52% | 93.94% |
 
 - 2018.09.26
@@ -203,8 +210,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   重训后的模型性能如下表：
 
+
   |          | 12-net | 24-net | 48-net |
-  | :------: | :----: | :----: | :----: |
+  | - | - | - | - |
   | Accuracy | 94.35% | 97.45% | 94.67% |
 
 - 2018.10.01
@@ -227,8 +235,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   12net 的样本由随机采样得来。
 
+
   |                    | Positive | Negative |  Part  |
-  | :----------------: | :------: | :------: | :----: |
+  | - | - | - | - |
   |  **Training Set**  |  156728  |  470184  | 156728 |
   | **Validation Set** |  10000   |  10000   | 10000  |
 
@@ -244,8 +253,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   24net 的样本全部来自 12net 的检测结果。
 
+
   |                    | Positive | Negative |  Part  |
-  | :----------------: | :------: | :------: | :----: |
+  | - | - | - | - |
   |  **Training Set**  |  60149   |  180447  | 120298 |
   | **Validation Set** |   1500   |   1500   |  1500  |
 
@@ -261,8 +271,9 @@ tag: ["Face Detection", "Face Alignment"]
 
   48net 的正样本和 part 样本来自于 24net 在 widerface 上的检测结果，负样本来自于 24net 在 widerface 和 celeba 上的检测结果，landmark 样本来自于 24net 在 celeba 上的检测结果。
 
+
   |                    | Positive | Negative |  Part  | landmark |
-  | :----------------: | :------: | :------: | :----: | :------: |
+  | - | - | - | - | - |
   |  **Training Set**  |  242862  |  728586  | 242862 |  485724  |
   | **Validation Set** |   5000   |   5000   |  5000  |   5000   |
 
