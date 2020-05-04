@@ -404,7 +404,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### CNN AND DEEP LEARNING
 
-- ResNeSt: Split-Attention Networks ([PDF](https://arxiv.org/abs/2004.08955), [Project/Code](https://github.com/zhanghang1989/ResNeSt))
+- ResNeSt: Split-Attention Networks ([PDF](https://arxiv.org/abs/2004.08955), [Project/Code](https://github.com/zhanghang1989/ResNeSt), [Reading Note](/2020/05/04/Computer_Vision/Reading_Note/2020-05-04-ResNeSt/))
 - Meta-Learning in Neural Networks: A Survey ([PDF](https://arxiv.org/abs/2004.05439), )
 - Generalizing from a Few Examples: A Survey on Few-Shot Learning ([PDF](https://arxiv.org/abs/1904.05046))
 - NBDT: Neural-Backed Decision Trees ([PDF](https://arxiv.org/abs/2004.00221), [Project/Code](http://nbdt.alvinwan.com/), [Github](https://github.com/alvinwan/neural-backed-decision-trees), [Reading Note](https://joshua19881228.github.io/2020/05/01/Computer_Vision/Reading_Note/2020-05-01-NBDT/))
