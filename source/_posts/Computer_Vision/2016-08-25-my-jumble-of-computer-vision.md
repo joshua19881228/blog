@@ -10,6 +10,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### OBJECT/SALIENCY DETECTION
 
+- YOLOv4: Optimal Speed and Accuracy of Object Detection ([PDF](https://arxiv.org/abs/2004.10934), [Project/Code](https://github.com/AlexeyAB/darknet))
 - Learning Data Augmentation Strategies for Object Detection ([PDF](https://arxiv.org/abs/1906.11172), [Project/Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection))
 - Light-Weight RetinaNet for Object Detection ([PDF](https://arxiv.org/abs/1905.10011))
 - Objects as Points ([PDF](https://arxiv.org/abs/1904.07850), [Code/Projects](https://github.com/xingyizhou/CenterNet))
@@ -106,6 +107,8 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### SEGMENTATION/PARSING
 
+- CenterMask: single shot instance segmentation with point representation ([PDF](https://arxiv.org/abs/2004.04446))
+- Background Matting: The World is Your Green Screen ([PDF](https://arxiv.org/abs/2004.00626), [Project/Code](http://grail.cs.washington.edu/projects/background-matting/), [Github](https://github.com/senguptaumd/Background-Matting))
 - Towards Real-Time Automatic Portrait Matting on Mobile Devices ([PDF](https://arxiv.org/abs/1904.03816v1), [Project/Code](https://github.com/hyperconnect/MMNet))
 - Panoptic Feature Pyramid Networks ([PDF](https://arxiv.org/abs/1901.02446))
 - Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells ([PDF](https://arxiv.org/abs/1810.10804))
@@ -186,6 +189,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### TRACKING
 
+- Tracking Objects as Points ([PDF](https://arxiv.org/abs/2004.01177), [Project/Code](https://github.com/xingyizhou/CenterTrack))
 - Deeper and Wider Siamese Networks for Real-Time Visual Tracking ([PDF](https://arxiv.org/abs/1901.01660))
 - Multiple People Tracking Using Hierarchical Deep Tracklet Re-identification ([PDF](https://arxiv.org/abs/1811.04091))
 - Fully-Convolutional Siamese Networks for Object Tracking ([PDF](https://arxiv.org/abs/1606.09549))
@@ -399,6 +403,8 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### CNN AND DEEP LEARNING
 
+- Meta-Learning in Neural Networks: A Survey ([PDF](https://arxiv.org/abs/2004.05439), )
+- Generalizing from a Few Examples: A Survey on Few-Shot Learning ([PDF](https://arxiv.org/abs/1904.05046))
 - NBDT: Neural-Backed Decision Trees ([PDF](https://arxiv.org/abs/2004.00221), [Project/Code](http://nbdt.alvinwan.com/), [Github](https://github.com/alvinwan/neural-backed-decision-trees), [Reading Note](https://joshua19881228.github.io/2020/05/01/Computer_Vision/Reading_Note/2020-05-01-NBDT/))
 - Interpretable CNNs ([PDF](https://arxiv.org/abs/1901.02413))
 - Bag of Tricks for Image Classification with Convolutional Neural Networks ([PDF](https://arxiv.org/abs/1812.01187))
