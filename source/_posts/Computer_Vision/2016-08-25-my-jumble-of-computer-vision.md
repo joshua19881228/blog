@@ -10,6 +10,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### OBJECT/SALIENCY DETECTION
 
+- EfficientDet: Scalable and Efficient Object Detection ([PDF](https://arxiv.org/abs/1911.09070), [Project/Code](https://github.com/google/automl/tree/master/efficientdet))
 - YOLOv4: Optimal Speed and Accuracy of Object Detection ([PDF](https://arxiv.org/abs/2004.10934), [Project/Code](https://github.com/AlexeyAB/darknet))
 - Learning Data Augmentation Strategies for Object Detection ([PDF](https://arxiv.org/abs/1906.11172), [Project/Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection))
 - Light-Weight RetinaNet for Object Detection ([PDF](https://arxiv.org/abs/1905.10011))
@@ -403,6 +404,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### CNN AND DEEP LEARNING
 
+- ResNeSt: Split-Attention Networks ([PDF](https://arxiv.org/abs/2004.08955), [Project/Code](https://github.com/zhanghang1989/ResNeSt))
 - Meta-Learning in Neural Networks: A Survey ([PDF](https://arxiv.org/abs/2004.05439), )
 - Generalizing from a Few Examples: A Survey on Few-Shot Learning ([PDF](https://arxiv.org/abs/1904.05046))
 - NBDT: Neural-Backed Decision Trees ([PDF](https://arxiv.org/abs/2004.00221), [Project/Code](http://nbdt.alvinwan.com/), [Github](https://github.com/alvinwan/neural-backed-decision-trees), [Reading Note](https://joshua19881228.github.io/2020/05/01/Computer_Vision/Reading_Note/2020-05-01-NBDT/))
