@@ -759,6 +759,7 @@ I am going to maintain this page to record a few things about computer vision th
 
 ### RESOURCES/PERSPECTIVES
 
+- [Polylidar](https://github.com/JeremyBYU/polylidar)
 - [Network-acceleration](https://github.com/mrgloom/Network-Speed-and-Compression)
 - [Awesome-Skeleton-based-Action-Recognition](https://github.com/niais/Awesome-Skeleton-based-Action-Recognition)
 - [AI at the edge](https://github.com/crespum/edge-ai) A curated list of hardware, software, frameworks and other resources for Artificial Intelligence at the edge. Inspired by awesome-dataviz.
